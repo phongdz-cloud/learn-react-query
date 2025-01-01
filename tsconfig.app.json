@@ -20,7 +20,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".", // Đặt baseUrl là thư mục gốc của dự án
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src"]
 }
